@@ -23,7 +23,6 @@ function App() {
         todo.complete = !todo.complete
         setTodos(newTodos)
     }
-
     
     function handleAddTodo(e) {
         const name = todoNameRef.current.value
